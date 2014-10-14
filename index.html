@@ -1,0 +1,52 @@
+
+<html>
+  <head>
+    <title>Alchemy</title>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <style type="text/css">
+      #mainDiv
+      {
+        position: relative;
+        margin:0;
+        padding:0;
+        width: 800px;
+        height: 600px;
+        left: 50%;
+        top: 2px;
+        margin-left: -400px;
+        background-color: #F8F8F8;
+        
+        overflow: hidden;
+        #border-style: solid;
+        #border-radius: 18px;
+        #border-color: #000000
+      }
+      #loadingdiv
+      {
+        position: absolute;
+        background-color: #F8F8F8;
+        width: 250px;
+        height: 80px;
+        left: 300px;
+        top: 280px;
+        font-size: 30px;
+        font-family: serif;
+        color: #CCCCCC;
+      }
+      #canvas
+      {
+        visibility: hidden;
+      }
+    </style>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="alchemy.js"></script>
+  </head>
+  <body bgcolor = #000000 onload="initialize();">
+    <div id="mainDiv">
+      <div id="loadingdiv">
+        Loading symbols...
+      </div>
+      <canvas id="canvas"></canvas>
+    </div>
+  </body>
+</html>

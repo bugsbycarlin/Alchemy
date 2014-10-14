@@ -1,0 +1,56 @@
+
+Alchemy is a clone of Popcap Alchemy: http://www.popcap.com/games/alchemy/online
+
+In this game, you place colored zodiac tiles on a board to make lead into gold.
+
+The board is a 9 by 8 tiles. You make a play by placing a tile on the board according to the rules. Each turn, you are given a randomly generated colored zodiac tile. You may play it or discard it. Discarding costs you in the form of filling a blood gauge. If you discard too many tiles in a row, your gauge will fill, and you will die. Making a successful play empties the gauge (or at least reduces it).
+
+You begin the game with an empty board and a grey starting stone. The rules for a move are as follows:
+
+- You must place your tile next to an existing tile, or grey stone.
+- For each adjacent tile, your tile must match either the color or the zodiac sign.
+- You can play anything next to a grey stone (as long as it doesn't conflict with rule 2).
+
+Each tile you place turns the square underneath it to gold. The goal is to turn all the squares on the board into gold (grey stones don't count).
+
+If you complete an entire column or row of tiles, this column or row will disappear (except grey stones). This gives you more room to work with.
+
+Note that grey stones are effectively wild cards.
+
+Play is over when the board is entirely gold (thus you win) or when you have discarded enough tiles to fill your blood gauge (thus you lose).
+
+The game starts at a low difficulty level with fewer different colors and zodiac symbols. The game gradually increases in difficulty by adding more colors and more symbols.
+
+The number of tiles you can discard without dying (in the original game): three. The fourth kills you.
+
+In the original game, a skull tile destroys an existing rune.
+
+Note: in the original game, grey stones do disappear when a row or column is cleared. I don't know what happens when you clear the board empty. I *think* the next play you're given is a grey stone (to avoid the game being over).
+
+Note: in the original game, making a successful play appears to reduce the gauge by one out of three. Clearing a row or column reduces it entirely.
+
+The easy game appears to have 5 colors (red, blue, green, yellow, and pink). It appears to have 8 symbols, (Leo, Aries, Taurus, Cancer, Gemini, Libra, Sagittarius, and Virgo)
+
+Neat animation: when the board clears, it clears slowly in flashes of three random tiles. Bright yellow. Three at a time, quarter of a second each.
+
+http://signsanddisplays.files.wordpress.com/2010/11/zodiac-sign-symbols-glossy-download.jpg
+
+
+
+Okay, my game...
+
+4 levels, to completion or game over.
+Something very mild between levels.
+Shiny animations 
+
+
+Remaining To Dos:
++Animated rune placement
++Animated rune clearing
++Animated board clearing
++Game Over screen
++Level progression
++Victory/credits
++Code cleanup
+full play test
++Blog post
